@@ -79,3 +79,34 @@ Second-Stage Fine-Tuning
 Enhanced Model M2
    ↓
 Evaluation (CCR / UCR)
+```
+
+---
+
+## Results
+
+### Evaluation Metrics
+
+#### Citation Coverage Rate (CCR)
+Percentage of responses containing at least one valid evidence citation.
+
+#### Unsupported Claim Rate (UCR)
+Percentage of responses without evidence citation, treated as unsupported.
+
+---
+
+### Results
+
+| Model            | CCR  | UCR  |
+|------------------|------|------|
+| M1 (Baseline)    | 45%  | 55%  |
+| M2 (Augmented)   | 75%  | 25%  |
+
+---
+
+### Summary
+
+- **+30% increase in Citation Coverage Rate**
+- **-30% reduction in Unsupported Claim Rate**
+
+These results indicate that **M2 generates more grounded, evidence-supported, and reliable responses compared to M1**.
