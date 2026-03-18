@@ -1,0 +1,28 @@
+{
+  "medical_combined_train": {
+    "file_name": "../medical_datasets/medical_combined_train.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "medical_combined_val": {
+    "file_name": "../medical_datasets/medical_combined_validation.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "medical_m2": {
+    "file_name": "m2_augmented_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}
